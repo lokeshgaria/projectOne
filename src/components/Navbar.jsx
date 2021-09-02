@@ -1,6 +1,12 @@
 import React from 'react';
 import "../css/Navbar.css"
 import BrandLogo from "../Assets/Navbar/brandLogo.png";
+import {VscSearch} from "react-icons/vsc"
+import {FaFacebookF , FaPinterestP} from "react-icons/fa"
+import {AiOutlineInstagram} from "react-icons/ai"
+import {BsChevronDown} from "react-icons/bs";
+
+
 
 function Navbar() {
     return (
@@ -13,17 +19,17 @@ function Navbar() {
                 <div className="navbar__list">
                     <ul>
                         <li>home</li>
-                        <li>products</li>
-                        <li>about us</li>
+                        <li > products <BsChevronDown  className="arrowBottom" /></li>
+                        <li>about  us</li>
                         <li>our stores</li>
                         <li>contact us</li>
                     </ul>
                 </div>
                 <div className="navbar__icons">
-                    <div className="search">Search</div>
-                    <div className="facebook">facebook</div>
-                    <div className="instagram">insta</div>
-                    <div className="pintrest">pintrest</div>
+                    <div className="search"><VscSearch /></div>
+                    <div className="facebook"> <FaFacebookF /></div>
+                    <div className="instagram"><AiOutlineInstagram /></div>
+                    <div className="pintrest"><FaPinterestP /></div>
                 </div>
             </div>
         </div>
