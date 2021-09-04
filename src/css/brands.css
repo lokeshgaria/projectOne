@@ -1,0 +1,30 @@
+.brandRow{
+    display: flex;
+    /* width: 100%; */
+    max-width: 1250px;
+   
+    margin: auto;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.brand__Card{
+    width: 170px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 176px;
+}
+
+.brand__Card > img{
+    width: 96px;
+}
+
+.brand__Card > p{
+   
+    font-size: 1.3rem;
+}
+
+ 
