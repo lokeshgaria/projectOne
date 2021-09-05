@@ -4,7 +4,7 @@ import brand from "../Assets/Navbar/brandLogo.png";
 import { IoIosPin } from "react-icons/io";
 import { FiPhone } from "react-icons/fi";
 import {
-  FaAddressBook,
+  
   FaFacebookF,
   FaInstagram,
   FaPinterestP,
