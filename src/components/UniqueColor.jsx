@@ -56,7 +56,7 @@ function UniqueColor() {
             {
                 stonesCard.map((values , index) => (
                     <div className="card" key={index}>
-                    <div className="img">
+                    <div className="Card__img">
                         <img src={values.img} alt="timber"></img>
                     </div>
                      <div className="card__name">

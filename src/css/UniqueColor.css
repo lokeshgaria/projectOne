@@ -21,10 +21,11 @@
 }
 .cardRow{
     display: flex;
+    max-width: 1250px;
 }
 .card{
-    width: 19%;
-    border: 2px solid #FFF;
+    width: 20%;
+    border: 2px solid #d4c7c7;
     transition: all .3s ease;
     min-height: 300px;
     background: transparent;
@@ -36,11 +37,11 @@
     transition: all .3s ease;
      border: 2px solid rgba(255, 255, 255, 0);;
 }
-.img{
+.Card__img{
     width: 100%;
 }
 
-.img > img{
+.Card__img > img{
     width: 100%;
 }
 
