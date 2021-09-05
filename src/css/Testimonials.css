@@ -1,0 +1,99 @@
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial > h1{
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    margin: 4rem;
+}
+
+.testimonial_bg{
+    background: #d6d6d6;
+}
+
+.testimonial__right{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__details{
+    width: 82%;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+.testimonial__details > p{
+    font-size: 1.2rem;
+}
+
+.details__footer{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 0;
+}
+.img_fluid{
+    width: 100%;
+    height: auto;
+}
+
+.testimonialImg{
+    width: 90px;
+}
+
+.userDetails{
+    margin-left: 3rem;
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.userName{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.userAddress{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.franchise__img{
+    width: 40%;
+}
+
+.franchise{
+    width: 100%;
+    display: flex;
+    margin: 2rem auto;
+}
+
+.frenchise__content , .franchiseimg{
+    flex: 1;
+}
+
+.constentFRN{
+   
+    width: 90%;
+    height: 332px;
+    margin: 4rem auto;
+}
+
+.constentFRN > h1 {
+    font-size: 4.4rem;
+    font-family: 'Poppins';
+}
+
+.constentFRN > p {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}

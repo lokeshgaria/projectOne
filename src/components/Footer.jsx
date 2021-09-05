@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
-import brand from "../Assets/Navbar/brandLogo.png";
+import brand from "../Assets/Navbar/brandLogo.jpg";
 import { IoIosPin } from "react-icons/io";
 import { FiPhone } from "react-icons/fi";
 import {
@@ -33,7 +33,7 @@ function Footer() {
       <div className="footer__content">
         <div className="firstContent">
           <div className="footer__brandImg">
-            <img src={brand} alt="brandImg" />
+            <img src={brand} alt="brandImg" className="img_fluid"/>
           </div>
           <p>
             Handmade products with unconventional design processes to give a

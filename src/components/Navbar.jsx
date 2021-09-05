@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/Navbar.css"
-import BrandLogo from "../Assets/Navbar/brandLogo.png";
+import BrandLogo from "../Assets/Navbar/brandLogo.jpg";
 import {VscSearch} from "react-icons/vsc"
 import {FaFacebookF , FaPinterestP} from "react-icons/fa"
 import {AiOutlineInstagram} from "react-icons/ai"
