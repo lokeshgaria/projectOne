@@ -1,0 +1,72 @@
+ 
+
+.finishes__heading{
+    max-width: 1250px;
+    border-top: 1px solid #b4b4b2;
+    margin: auto;
+    padding: 3rem 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.finishes__card{
+    width: 100%;
+     display: flex;
+     justify-content: space-between;
+     padding: 3rem 0;
+}
+.stone__card{
+    width: 264px;
+    height: 303px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 20px;*/
+}
+
+.client__card{
+    width: 182px;
+    align-items: center;
+    outline: 1px solid #d4d3c7;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: 1px solid;
+    height: 74px;
+   
+}
+
+.client__card:hover {
+    outline: 1px solid rgb(128, 124, 124);
+     
+}
+.client__card >img , 
+.stone__card > img{
+    width: 100%;
+    height: 100%;
+}
+
+.stone__card > span{
+   font-size: 2rem;
+}
+
+.finishes__heading > h2{
+    font-size: 3.4rem;
+}
+
+.clients{
+   margin: 4rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-evenly;
+}
+
+.clients > h2{
+    font-size: 3.4rem;
+}
