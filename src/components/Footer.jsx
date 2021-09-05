@@ -47,22 +47,22 @@ function Footer() {
           </div>
           <ul className="unorderList">
             <li>
-              <a href="">About Us</a>
+              <a href="/">About Us</a>
             </li>
             <li>
-              <a href="">Technical Information</a>
+              <a href="/">Technical Information</a>
             </li>
             <li>
-              <a href="">Catalogue</a>
+              <a href="/">Catalogue</a>
             </li>
             <li>
-              <a href="">FAQs</a>
+              <a href="/">FAQs</a>
             </li>
             <li>
-              <a href="">Contact us</a>
+              <a href="/">Contact us</a>
             </li>
             <li>
-              <a href="">Bricks Manufacturers</a>
+              <a href="/">Bricks Manufacturers</a>
             </li>
           </ul>
         </div>
@@ -85,13 +85,13 @@ function Footer() {
             </li>
           </ul>
           <div className="footer__icons">
-            <a href="">
+            <a href="/">
               <FaFacebookF />
             </a>
-            <a href="">
+            <a href="/">
               <FaInstagram />
             </a>
-            <a href="">
+            <a href="/">
               <FaPinterestP />
             </a>
           </div>
@@ -101,7 +101,7 @@ function Footer() {
           <div className="footerGallery">
             {footerImages.map((values, index) => (
               <div className="img" key={index}>
-                <img src={values} alt="image-gallery" />
+                <img src={values} alt={values} />
               </div>
             ))}
           </div>
