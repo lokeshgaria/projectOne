@@ -74,7 +74,7 @@ function Footer() {
           <ul className="unorderList">
             <li>
               <IoIosPin />
-              <strong>FlexStone</strong>
+              <strong> Ecovision</strong>
               <p>Shapath 4, SG Highway, Ahmedabad, Gujarat India-380015</p>
             </li>
             <li>
@@ -114,7 +114,7 @@ function Footer() {
       </div>
       <div className="copyright">
 
-        <span>Copyright © 2021 FlexStone Ltd. All rights reserved.</span>
+        <span>Copyright © 2021 Ecovision Ltd. All rights reserved.</span>
       </div>
     </div>
   );
