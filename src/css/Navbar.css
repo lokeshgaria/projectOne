@@ -80,6 +80,7 @@ p {
 .search  {
   font-size: 20px;
 }
+.hamburger{display: none;}
 
 @media (max-width: 480px) {
   .navbar__list {
@@ -96,6 +97,7 @@ p {
     margin-left: 6px;
     width: 39px;
     height: 38px;
+    display: block;
 }
 
 .search{

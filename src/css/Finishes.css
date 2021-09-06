@@ -70,7 +70,17 @@
 .clients > h2{
     font-size: 3.4rem;
 }
+ 
 
+.clients__card {
+    align-items: center;
+    
+    display: flex;
+   
+    align-items: 1px solid;
+    width: 100%;
+    margin: 2rem auto;
+}
 @media (max-width : 480px){
     .finishes__card {
         width: 100%;
