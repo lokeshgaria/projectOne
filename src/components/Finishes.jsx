@@ -53,7 +53,7 @@ function Finishes() {
               <div className="clients">
               <h2>CLIENTS</h2>
 
-              <div className="finishes__card">
+              <div className="clients__card">
                   {
                       clients.map((values ,index) => (
                         <div className="client__card" key={index}  >

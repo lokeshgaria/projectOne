@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
-import brand from "../Assets/Navbar/brandLogo.jpg";
+import brand from "../Assets/Navbar/brandLogo.png";
 import { IoIosPin } from "react-icons/io";
 import { FiPhone } from "react-icons/fi";
 import {

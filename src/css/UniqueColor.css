@@ -57,3 +57,10 @@
     border-radius: 0 4px 4px 0px;
     background: white;
 }
+
+@media (max-width : 480px){
+    .unique {
+        background-color: #d6d6d6;
+        overflow: hidden;
+    }
+}

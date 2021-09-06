@@ -1,17 +1,21 @@
 import React from 'react';
 import "../css/Navbar.css"
-import BrandLogo from "../Assets/Navbar/brandLogo.jpg";
+import BrandLogo from "../Assets/Navbar/brandLogo.png";
 import {VscSearch} from "react-icons/vsc"
 import {FaFacebookF , FaPinterestP} from "react-icons/fa"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {BsChevronDown} from "react-icons/bs";
-
+import {GiHamburgerMenu} from "react-icons/gi"
 
 
 function Navbar() {
     return (
         <div className="header">
             <div className="navbar">
+
+                <div className="hamburger">
+                    <GiHamburgerMenu />
+                </div>
                 <div className="navbar__brand">
                     {/**BRAND LOGO */}
                     <img src={BrandLogo} alt={BrandLogo} />

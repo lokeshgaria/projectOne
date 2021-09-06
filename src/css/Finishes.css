@@ -70,3 +70,63 @@
 .clients > h2{
     font-size: 3.4rem;
 }
+
+@media (max-width : 480px){
+    .finishes__card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+    }
+    .stone__card {
+        width: 264px;
+        height: 302px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-right: 20px; */
+        margin: 2rem 0;
+    }
+    .stone__card > span {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+    .clients__card {
+        align-items: center;
+        outline: 1px solid #d4d3c7;
+       
+        display: flex;
+        overflow: scroll;
+        align-items: 1px solid;
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .client__card {
+        width: 220px;
+        margin-right: 18px;
+        align-items: center;
+        outline: 1px solid #d4d3c7;
+        /* border: 1px solid; */
+        display: flex;
+        align-items: 1px solid;
+        height: 82px;
+    }
+   .client__card > img {
+    width: 153px;
+    /* padding-right: 12px; */
+    height:  100%;
+    }
+    .clients {
+        margin: 4rem auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-evenly;
+    }
+}

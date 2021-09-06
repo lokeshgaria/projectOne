@@ -114,3 +114,12 @@
     border-radius: 65%;
     margin: 0 3rem;
  }
+
+ @media (max-width : 480px){
+    .footer__content {
+        max-width: 1250px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+    }
+ }

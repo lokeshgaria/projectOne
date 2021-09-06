@@ -97,3 +97,30 @@
     font-size: 1.4rem;
     margin: 2rem 0;
 }
+
+@media(max-width : 480px){
+    .franchise {
+        width: 100%;
+        display: flex;
+        margin: 2rem auto;
+        flex-direction: column-reverse;
+    }
+
+    .testimonial_bg {
+        background: #d6d6d6;
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial__details > p {
+        font-size: 1.2rem;
+        margin: 2rem 0;
+    }
+    .details__footer {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+    }
+    .testimonialImg {
+        width: 82px;
+    }
+}

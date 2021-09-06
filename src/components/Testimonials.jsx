@@ -26,7 +26,7 @@ function Testimonials() {
               <Col className="testimonial__right">
                 <div className="testimonial__details">
                   <p>
-                    FlexStone is the beginning of a new era in Architect design.
+                     Eco vision is the beginning of a new era in Architect design.
                     Awesome design. Unique Collection. Innovation in stone
                     design. Perfection in work. Best Quality. Punctual in
                     project completion. Updating & Upgrading stone design every
