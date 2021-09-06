@@ -74,7 +74,7 @@
 
 .clients__card {
     align-items: center;
-    
+   justify-content: space-between; 
     display: flex;
    
     align-items: 1px solid;
