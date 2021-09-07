@@ -64,10 +64,24 @@ p {
   width: 11%;
   font-size: 1.5rem;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
 }
+.navbar__icons > input{
+  position: absolute;
+  left: -198px;
+  top: 227%;
+  outline: none;
+  width: 220px;
+  opacity: 0;
+  border: 1px solid #e9ecef;
+  padding: 1rem;
+}
 
+.opacity{
+  opacity: 1 !important;
+}
 .search,
 .instagram,
 .facebook,
@@ -81,6 +95,25 @@ p {
   font-size: 20px;
 }
 .hamburger{display: none;}
+
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
 
 @media (max-width: 480px) {
   .navbar__list {
