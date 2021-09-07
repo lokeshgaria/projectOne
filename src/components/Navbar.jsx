@@ -9,17 +9,35 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
-
-  const toggleIcons = () =>{
-      setToggle(!toggle)
-      console.log("clicked")
-  }
+  const [toggleHam , setHam] = useState(false);
+  const [drop , setDrop] = useState(false)
+  const toggleIcons = () => {
+    setToggle(!toggle);
+    console.log("clicked");
+  };
   return (
     <div className="header">
       <div className="navbar">
         <div className="hamburger">
-          <GiHamburgerMenu />
+          {
+            toggleHam ? <FaTimes  onClick={() => setHam(!toggleHam)}/> :    <GiHamburgerMenu onClick={() => setHam(!toggleHam)} />
+          }
+         
+         
         </div>
+        <div className={toggleHam ? "shiftRight productDisc": "productDisc"} >
+            <ul className="productList">
+              <li>Cluster Stone</li>
+              <li>Bricks</li>
+              <li>Stones</li>
+              <li>Laser Cut</li>
+              <li>Panel Format</li>
+              <li>Nano Topping</li>
+              <li>Flooring</li>
+              <li>Vertical Stamping Textures</li>
+              <li>Architectural Grilles</li>
+            </ul>
+          </div>
         <div className="navbar__brand">
           {/**BRAND LOGO */}
           <img src={BrandLogo} alt={BrandLogo} />
@@ -27,18 +45,38 @@ function Navbar() {
         <div className="navbar__list">
           <ul>
             <li>home</li>
-            <li>
-              {" "}
+            <li 
+            className="displayRow" 
+            // onBlur={() => setDrop(false)}
+            onClick={() => setDrop(!drop)}>
               products <BsChevronDown className="arrowBottom" />
             </li>
             <li>about us</li>
             <li>our stores</li>
             <li>contact us</li>
           </ul>
+
+          <div className={drop ? "hoverEfect productDisc": "productDisc"} >
+            <ul className="productList">
+              <li>Cluster Stone</li>
+              <li>Bricks</li>
+              <li>Stones</li>
+              <li>Laser Cut</li>
+              <li>Panel Format</li>
+              <li>Nano Topping</li>
+              <li>Flooring</li>
+              <li>Vertical Stamping Textures</li>
+              <li>Architectural Grilles</li>
+            </ul>
+          </div>
         </div>
         <div className="navbar__icons">
-          <div className="search" >
-            {toggle ? <FaTimes onClick={toggleIcons} /> : <VscSearch onClick={toggleIcons} />}
+          <div className="search">
+            {toggle ? (
+              <FaTimes onClick={toggleIcons} />
+            ) : (
+              <VscSearch onClick={toggleIcons} />
+            )}
           </div>
           <div className="facebook">
             {" "}
@@ -50,7 +88,12 @@ function Navbar() {
           <div className="pintrest">
             <FaPinterestP />
           </div>
-          <input type="text" placeholder="Search." className={toggle ? "opacity" : ""} />
+        </div>
+        <div className={toggle ? "opacity searchDiv" : "searchDiv"}>
+          <form action="" className="searchform">
+            <input type="text" placeholder="Search keyword..." />
+            <button type="submit">sub</button>
+          </form>
         </div>
       </div>
     </div>
