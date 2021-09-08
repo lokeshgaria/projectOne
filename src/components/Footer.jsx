@@ -32,9 +32,15 @@ function Footer() {
     <div className="footer">
       <div className="footer__content">
         <div className="firstContent">
+          <div  className="firstContent__top">
           <div className="footer__brandImg">
             <img src={brand} alt="brandImg" className="img_fluid"/>
           </div>
+          <p>
+             Eco<span>Vision</span>
+           </p>
+          </div>
+        
           <p>
             Handmade products with unconventional design processes to give a
             unique touch to each solution.

@@ -40,7 +40,13 @@ function Navbar() {
           </div>
         <div className="navbar__brand">
           {/**BRAND LOGO */}
+          <div className="brandImg">
           <img src={BrandLogo} alt={BrandLogo} />
+          </div>
+           <p>
+             Eco<span>Vision</span>
+           </p>
+
         </div>
         <div className="navbar__list">
           <ul>

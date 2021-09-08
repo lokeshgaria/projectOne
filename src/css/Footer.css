@@ -25,11 +25,13 @@
     /* justify-content: flex-end; */
     margin: 2.4rem 1rem;
 }
-
-.footer__brandImg{
-    
-    width: 100%;
-  
+.firstContent__top{
+    display: flex;
+    align-items: center;
+}
+.footer__brandImg {
+    width: 28%;
+     
 }
 .firstContent > p{
     font-size: 1.4rem;
@@ -121,5 +123,9 @@
         margin: auto;
         flex-direction: column;
         display: flex;
+    }
+    .img {
+        width: 113px;
+        outline: 1px solid rgb(228 207 207);
     }
  }

@@ -21,14 +21,36 @@ p {
   padding: 1rem 0;
 }
 .navbar__brand {
-  width: 199px;
+  width: 226px;
+  
+  display: flex;
+  align-items: center;
   height: 42px;
 }
-.navbar__brand > img {
-  width: 100%;
-  height: auto;
+.brandImg{
+  width: 29%;
+  height: 100%;
 }
 
+.brandImg > img {
+  width: 100%;
+  height: 100%;
+}
+.navbar__brand > p , .firstContent__top >p{
+  margin: 0;
+  /* width: 100%; */
+  flex: 1;
+  margin-left : 12px;
+  font-family: 'Poppins';
+  font-size: 2.7rem;
+  color: #5a4848;
+  font-weight: 500;
+   
+}
+
+.navbar__brand > p > span , .firstContent__top >p > span{
+  color: #908585;
+}
 .navbar__list {
   /* display: flex; */
   /* flex: 0; */

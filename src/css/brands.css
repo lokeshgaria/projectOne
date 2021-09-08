@@ -37,5 +37,21 @@
         justify-content: space-between;
         padding: 3rem 0;
         overflow: hidden;
+      
+            overflow: scroll;
+            margin: 12px;
+       
+    }
+    .brand__Card {
+        /* width: 181px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 221px;
+    }
+    .brand__Card > img {
+        width: 162px;
+        padding: 2rem;
     }
  }
