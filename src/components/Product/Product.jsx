@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import brickbg from "../../Assets/product/brickbg.jpg";
 import Container from "react-bootstrap/Container";
 
 import Form from "react-bootstrap/Form";

@@ -1,5 +1,4 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
 import Brands from "../Brands";
 import Finishes from "../Finishes";
 import Frenchise from "../Frenchise";
