@@ -1,32 +1,16 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
-import UniqueColor from "./components/UniqueColor";
-import Brands from "./components/Brands"
-import Finishes from "./components/Finishes";
-import Footer from "./components/Footer";
-import Testimonials from "./components/Testimonials"
-import Frenchise from "./components/Frenchise";
-
+import Homepage from "./components/Homepage/Homepage";
+import Product from "./components/Product/Product";
+import {  Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/**NAVBAR */}
-      <Navbar />
-      {/* SLIDER */}
-      <Slider />
-      {/* UNIQUE SECTION */}
-      <UniqueColor />
-      {/**brand section */}
-      <Brands />
-     
-      {/* FINISHES   */}
-      <Finishes />
-       {/* TESTIMONIALS */}
-       <Testimonials />
-      <Frenchise />
-      {/**FOOTER */}
-      <Footer />
+    
+      <Switch >
+        <Route  exact path="/" component={Homepage} />
+        <Route exact path="/product-category/:productname" component={Product} />
+        
+      </Switch>
     </div>
   );
 }

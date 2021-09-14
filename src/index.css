@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+a{
+  color: #111 !important;
+  text-decoration: none !important;
+}
+
 html{
   font-size: 62.5%;
 }

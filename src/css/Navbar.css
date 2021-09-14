@@ -4,7 +4,9 @@ p {
 
 .header {
   width: 100%;
-  position: fixed;
+  position: sticky;
+  top: 0;
+  /* position: fixed; */
   background: rgba(255, 255, 255, 0.7);
   z-index: 1;
   /* height: 71px; */
@@ -95,7 +97,7 @@ p {
   position: absolute;
   outline: none;
   background: #f9fafb;
-  opacity: 0;
+ display: none;
   border: 1px solid #e9ecef;
   /* padding: 1rem; */
   width: 18%;
@@ -120,6 +122,10 @@ p {
 }
 .searchform > button {
   display: none;
+}
+
+.display{
+  display: block !important;
 }
 
 .opacity {
@@ -264,7 +270,7 @@ p {
     position: absolute;
     outline: none;
     background: #f9fafb;
-    opacity: 0;
+    display: none;
     border: 1px solid #e9ecef;
     /* padding: 1rem; */
     width: 96%;
