@@ -30,9 +30,9 @@ function Testimonials() {
                     Awesome design. Unique Collection. Innovation in stone
                     design. Perfection in work. Best Quality. Punctual in
                     project completion. Updating & Upgrading stone design every
-                    time. Cooperative & helping team. Thank you Flexstone team
+                    time. Cooperative & helping team. Thank you  Ecovision team
                     for the excellent work for my home. Working pattern is
-                    excellent. I think that Home is incomplete without Flexstone
+                    excellent. I think that Home is incomplete without  Ecovision
                     design. Awesome work.{" "}
                   </p>
 

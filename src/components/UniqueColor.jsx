@@ -1,48 +1,35 @@
 import React from "react";
 import "../css/UniqueColor.css";
-import Timber from "../Assets/stones/Timber.jpg"
-import stone1 from "../Assets/stones/stone1.jpg"
-import stone2 from "../Assets/stones/stone2.jpg"
-import stone3 from "../Assets/stones/stone3.jpg"
-import stone4 from "../Assets/stones/stone4.jpg"
-import stone5 from "../Assets/stones/stone5.jpg"
-import stone8 from "../Assets/stones/stone8.jpg"
-import stone7 from "../Assets/stones/stone7.jpg"
+ 
 
 
 const stonesCard = [
+     
     {
-        img : stone1,
-        title : "cloudy white"
+        img : "https://icestoneusa.com/wp-content/uploads/2020/09/New-forest-fern-768x1024.jpg",
+        title : " Forest Fern"
     },
     {
-        img : stone2,
-        title : "European Sand"
+        img : "https://icestoneusa.com/wp-content/uploads/2020/07/GothamGreyLarge-View-.jpg",
+        title : "Gotham Grey"
     },
     {
-        img : stone3,
-        title : "graphite"
+        img : "https://icestoneusa.com/wp-content/uploads/2020/07/Latte_LargeView.jpg",
+        title : "Latte"
     },
     {
-        img : stone4,
-        title : "mocha"
+        img : "https://icestoneusa.com/wp-content/uploads/2020/07/MoroccanRed_Large-View.jpg",
+        title : "Moroccan Red"
     },
     {
-        img : stone5,
-        title : "statuario"
+        img : "https://icestoneusa.com/wp-content/uploads/2020/07/PearlGrey_Large-View.jpg",
+        title : "Pearl Grey"
     },
     {
-        img : Timber,
-        title : "timber"
+        img : "https://icestoneusa.com/wp-content/uploads/2015/04/SagePearl_Med-View_web.jpg",
+        title : "Sage Pearl"
     },
-    {
-        img : stone7,
-        title : "uncolored"
-    },
-    {
-        img : stone8,
-        title : "brick red"
-    },
+    
      
 
 ]

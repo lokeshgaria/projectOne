@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../css/Navbar.css";
-import BrandLogo from "../Assets/Navbar/brandLogo.png";
+import BrandLogo from "../Assets/Navbar/newBrandlogo.png";
 import { VscSearch } from "react-icons/vsc";
 import { FaFacebookF, FaPinterestP, FaTimes } from "react-icons/fa";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -8,6 +8,28 @@ import { BsChevronDown } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 
+
+export const  NavbarLogo = () => {
+  return (
+    
+    <div className="navbar__brand">
+    {/**BRAND LOGO */}
+    <div className="brandImg">
+      
+      <img src={BrandLogo} alt={BrandLogo} />
+    </div>
+    <div className="logoTextDiv">
+    <p className="logo_text">
+      <span>Eco</span>Vision
+    </p>
+    
+      <small>Evolution of new India</small>
+    </div>
+    
+  
+  </div>
+  )
+} 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   const [toggleHam, setHam] = useState(false);
@@ -43,16 +65,8 @@ function Navbar() {
             <li>Architectural Grilles</li>
           </ul>
         </div>
-        <div className="navbar__brand">
-          {/**BRAND LOGO */}
-          <div className="brandImg">
-            
-            <img src={BrandLogo} alt={BrandLogo} />
-          </div>
-          <p>
-            Eco<span>Vision</span>
-          </p>
-        </div>
+
+       <NavbarLogo />
         <div className="navbar__list">
           <ul>
             <li>

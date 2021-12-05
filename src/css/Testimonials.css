@@ -77,9 +77,17 @@
     margin: 2rem auto;
 }
 
+.franchiseimg > img{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+}
+
 .frenchise__content , .franchiseimg{
     flex: 1;
+    display: flex;
 }
+
 
 .constentFRN{
    

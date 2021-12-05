@@ -1,16 +1,16 @@
 import React from "react";
 import "../css/Footer.css";
-import brand from "../Assets/Navbar/brandLogo.png";
+ 
 import { IoIosPin } from "react-icons/io";
 import { FiPhone } from "react-icons/fi";
+ 
 import {
-  
   FaFacebookF,
   FaInstagram,
-  FaPinterestP,
+  
   FaWhatsapp,
 } from "react-icons/fa";
-
+import { AiFillLinkedin } from "react-icons/ai";
 //FOOTER IMAGES
 import gallery1 from "../Assets/footer/gallry1.jpg";
 import gallery2 from "../Assets/footer/gallery2.jpg";
@@ -18,6 +18,7 @@ import gallery3 from "../Assets/footer/gallery3.jpg";
 import gallery4 from "../Assets/footer/gallery4.jpg";
 import gallery5 from "../Assets/footer/gallery5.jpg";
 import gallery6 from "../Assets/footer/gallery6.jpg";
+import { NavbarLogo } from "./Navbar";
 
 const footerImages = [
   gallery1,
@@ -27,23 +28,17 @@ const footerImages = [
   gallery5,
   gallery6,
 ];
+
 function Footer() {
   return (
     <div className="footer">
       <div className="footer__content">
         <div className="firstContent">
-          <div  className="firstContent__top">
-          <div className="footer__brandImg">
-            <img src={brand} alt="brandImg" className="img_fluid"/>
-          </div>
+          <NavbarLogo />
+
           <p>
-             Eco<span>Vision</span>
-           </p>
-          </div>
-        
-          <p>
-            Handmade products with unconventional design processes to give a
-            unique touch to each solution.
+            Eco-Friendly Products with unique designs give an unconventional
+            touch to every product.
           </p>
         </div>
 
@@ -81,24 +76,32 @@ function Footer() {
             <li>
               <IoIosPin />
               <strong> Ecovision</strong>
-              <p>Shapath 4, SG Highway, Ahmedabad, Gujarat India-380015</p>
+              <p>
+                D-15 AND 16, UPSIIDC, SITE-B, SURAJPUR INDUSTRIAL AREA, GAUTTAM
+                BUDDHA NAGAR, UTTAR PRADESH-203207.
+              </p>
             </li>
             <li>
-              <FiPhone /> +91 9979 758 333
+              <a href="tel: +919899309630">
+                <FiPhone /> +91 989 9309 630
+              </a>
             </li>
-            <li>
+            {/* <li>
               <FiPhone /> +91 9979 758 850
-            </li>
+            </li> */}
           </ul>
           <div className="footer__icons">
-            <a href="/">
+            <a href="https://www.facebook.com/pages/Eco-Vision-Industries/1660546327574837">
               <FaFacebookF />
             </a>
-            <a href="/">
+            <a href="https://instagram.com/ecovisionindustries?utm_medium=copy_link">
               <FaInstagram />
             </a>
-            <a href="/">
+            {/* <a href="/">
               <FaPinterestP />
+            </a> */}
+            <a href="/http://linkedin.com/in/ecovision-industries-9527293a">
+              <AiFillLinkedin />
             </a>
           </div>
         </div>
@@ -114,12 +117,14 @@ function Footer() {
         </div>
       </div>
       <div className="whataspp">
-          <div className="floatIcon">
-              <FaWhatsapp />
-          </div>
+      <a href="https://api.whatsapp.com/send?phone=+919899309630&amp;text=Hi, I am looking to book my health checkup. Please assist me with the diagnostic test details.">
+        <div className="floatIcon">
+          <FaWhatsapp />
+        
+        </div>
+        </a>
       </div>
       <div className="copyright">
-
         <span>Copyright © 2021 Ecovision Ltd. All rights reserved.</span>
       </div>
     </div>

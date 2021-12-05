@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Testimonials.css";
  
-import Testimonial3 from "../Assets/testimonial/testimonial3.jpg";
+ 
 
 function Frenchise() {
   return (
@@ -13,20 +13,20 @@ function Frenchise() {
 <p>
   If you have the zeal for unique architecture, commitment for building
   a successful business and the ability to accept new challenges, we
-  offer you the right opportunity. FlexStone offers its franchise to all
+  offer you the right opportunity. Ecovision offers its franchise to all
   those enthusiastic architecture lovers.
 </p>
 
 <p>
-  For opening FlexStone Gallery & becoming our Exclusive Partner for
-  your City Contact us at labhashree.flexstone@gmail.com <br />
-  or call us on +91 9979 758 333, +91 99797 58850
+  For opening Ecovision  Gallery & becoming our Exclusive Partner for
+  your City Contact us at  ecovision@gmail.com <br />
+  or call us on +91-9899309630
 </p>
           </div>
       
       </div>
       <div className="franchiseimg">
-      <img src={Testimonial3} alt="" className="img-fluid" />
+      <img src="https://images.pexels.com/photos/4947396/pexels-photo-4947396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className=" " />
       </div>
      
     </div>

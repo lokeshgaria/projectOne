@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&display=swap');
+
 p {
   font-family: "Poppins", sans-serif;
 }
 
 .header {
   width: 100%;
-  position: sticky;
+  
   top: 0;
   /* position: fixed; */
   background: rgba(255, 255, 255, 0.7);
@@ -13,6 +15,15 @@ p {
   padding: 10px 0;
 }
 
+.logo_text{
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: 3rem;
+ margin: 0;
+}
+.logo_text > span{
+  font-weight: 500;
+}
 .navbar {
   display: flex;
   font-family: "Poppins", sans-serif;
@@ -22,16 +33,31 @@ p {
   justify-content: space-between;
   padding: 1rem 0;
 }
-.navbar__brand {
-  width: 226px;
+ 
+  .navbar__brand {
+    width: 304px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
   
-  display: flex;
-  align-items: center;
-  height: 42px;
 }
-.brandImg{
-  width: 29%;
+.brandImg {
+  width: 45%;
   height: 100%;
+}
+
+.logoTextDiv{
+  width: 212px;
+    margin-left: 7px;
+}
+
+.logoTextDiv > small{
+  font-size: 16px;
+    padding: -9px;
+    margin: -15px 0;
+    position: relative;
+    top: -10px;
 }
 
 .brandImg > img {
@@ -43,10 +69,9 @@ p {
   /* width: 100%; */
   flex: 1;
   margin-left : 12px;
-  font-family: 'Poppins';
-  font-size: 2.7rem;
+   
   color: #5a4848;
-  font-weight: 500;
+   
    
 }
 
@@ -76,7 +101,7 @@ p {
 .navbar__list > ul > li {
   list-style: none;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   display: flex;
   cursor: pointer;
   align-items: center;
@@ -178,8 +203,9 @@ p {
   position: absolute;
   background: #fff;
   top: 114%;
+  z-index: 9;
   margin-left: 9rem;
-  width: 29%;
+  width: 30%;
   transition: all 0.2s linear;
 }
 
