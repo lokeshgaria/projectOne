@@ -9,7 +9,7 @@ import UniqueColor from "../UniqueColor";
 import Footer from "../Footer"
 
 function Homepage() {
-  return (
+  return ( 
     <div>
       {/**NAVBAR */}
       <Navbar />

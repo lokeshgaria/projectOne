@@ -79,7 +79,10 @@ function Navbar() {
             >
               products <BsChevronDown className="arrowBottom" />
             </li>
-            <li>about us</li>
+            <li>
+            <NavLink to="/aboutus"> About us</NavLink>
+           
+              </li>
             <li>our stores</li>
             <li>contact us</li>
           </ul>
