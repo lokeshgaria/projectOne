@@ -76,11 +76,11 @@ function Product() {
         </Container>
         <div className="productRows ">
           <Container>
-            <Row xs={1} md={4} lg={4}>
+            <Row  >
               {
                 product.map((values,index) => {
                   return (
-                    <Col style={{margin : "1rem 0"}}>
+                    <Col lg={3} sm={6} xs={6} style={{margin : "1rem 0"}}>
                     <img key={index} src={values.img} alt="card1" className="product_img" />
                     {/* <h4>BGB BRICK</h4> */}
                   </Col>

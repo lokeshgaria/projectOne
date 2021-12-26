@@ -82,3 +82,48 @@
  .flex-rev{
      flex-direction: row-reverse !important;
  }
+
+ @media (max-width:780px){
+    .about_usBanner{
+        background-position: center;
+        height: 65vh;
+        background-size: cover;
+        display: flex;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+    }
+    .size5 {
+        font-size: 3rem;
+    }
+    .size3 {
+        font-size: 1.5rem;
+    }
+    .flex-rev{
+        flex-direction: column-reverse !important;
+    }
+    .flex_container {
+        display: flex;
+        align-items: center;
+        max-height:  fit-content;
+        justify-content: center;
+        height: auto;
+    }
+    
+.content_div {
+    background: #f8f9fad1;
+    padding: 4rem 2rem;
+}
+.flex_container {
+    display: flex;
+    align-items: center;
+    /* max-height: 500px; */
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    max-height: auto;
+}
+.leftside , .rightSide {
+    width: 100%;
+}
+ }

@@ -193,7 +193,7 @@ p {
 
 .hoverEfect {
   opacity: 1 !important;
-
+  pointer-events: all !important;
   top: 109% !important;
   transition: all 0.4s linear;
 }
@@ -207,12 +207,13 @@ p {
   margin-left: 9rem;
   width: 30%;
   transition: all 0.2s linear;
+  pointer-events: none;
 }
 
 .productList {
   font-size: 1.7rem;
   width: 100%;
-  list-style: none;
+   
   height: 100%;
   margin: 0;
   padding: 0;
@@ -242,8 +243,8 @@ p {
   .hamburger {
     font-size: 20px;
     margin-left: 6px;
-    width: 39px;
-    height: 38px;
+    width: 34px;
+    height: 31px;
     display: block;
   }
 
@@ -259,8 +260,11 @@ p {
     height: 100%;
   }
   .navbar__brand {
-    width: 228px;
     height: 51px;
+    /* border: 1px solid; */
+    /* flex: 1; */
+    width: 70%;
+    
   }
   .header {
     width: 100%;
@@ -311,6 +315,7 @@ p {
   left: 0 !important;
   transition: all .5s linear;
   margin-left: 0;
+  pointer-events: all;
  }
 .productDisc {
     opacity: 1;
@@ -321,5 +326,24 @@ p {
     /* margin-left: 9rem; */
     width: 100%;
     transition: all .5s linear;
+}
+.brandImg {
+  width: 28%;
+  height: 83%;
+}
+.logoTextDiv {
+  margin-left: 0;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  height: 82%;
+  width: auto;
+  justify-content: space-between;
+}
+.logo_text {
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0;
 }
 }
